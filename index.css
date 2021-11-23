@@ -1,0 +1,358 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+body
+{
+    font-family: 'Source Serif Pro', serif;
+}
+
+
+@media only screen and (max-width: 600px) {
+    section
+    {
+        margin-top: 20px;
+    }
+    .navigation
+    {
+    background-color: #530B75;
+    }
+  nav .navigation .logo li a
+   {
+        text-decoration: none;
+        list-style: none;
+        color: #fff;
+        font-size: 40px;
+        margin-left: 25px;
+   }
+   nav .navigation .logo li a #libs
+   {
+       color: #FA00C3;
+   }
+   .link ul
+    {
+       display: inline;
+       color: black;
+       text-decoration: none;
+       list-style: none;
+       display: none;
+    }
+    .hamberguer img
+    {
+        width: 65px;
+        height: 65px;
+        margin-right: 25px;
+        cursor: pointer;
+    }
+    .menu-mobile
+    {
+        width: 300px;
+        height: auto;
+        background-color: #530B75;
+        float: right;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        align-items: center;
+        display: none;
+        position: absolute;
+        z-index: 10;
+    }
+    .menu-mobile h1
+    {
+        color: #FA00C3;
+        font-weight: bolder;
+        font-size: 34px;
+    }
+    
+    .menu-mobile hr
+    {
+        border: 1px solid #FA00C3;
+        background-color: #FA00C3;
+        width: 300px;
+        position: relative;
+        font-weight: bolder;
+    }
+    .menu-mobile .liens ul
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        list-style: none;
+    }
+    .menu-mobile .liens ul li 
+    {
+        color: #fff;
+        font-weight: bolder;
+        margin-top: 12px;
+        
+    }
+    .menu-mobile .liens ul li a
+    {
+        text-decoration: none;
+        color: #fff;
+        font-size: 18px;
+        font-weight: bolder;
+    }
+    .menu-mobile .contacter
+    {
+        margin-left: 30px;
+        padding: 10px;
+        border: 1px solid #FA00C3;
+        border-radius: 5px;
+        color: #fff;
+        font-weight: bolder;
+        background-color: #FA00C3;
+    }
+     h1
+    {
+        color: #530B75;
+        font-size: 40px;
+        text-align: center;
+        font-weight: bolder;
+        margin-top: 15px;
+    }
+    .apropos p
+    {
+        margin: 0 auto;
+        padding: 50px;
+        text-align: justify;
+        text-justify: auto;
+    }
+    .apropos #desc{
+        font-size: 25px;
+        color: #FA00C3;
+        font-weight: bolder;
+    }
+    .les-formations
+    {
+        height: 1400px;
+        background-color: #FA00C3;
+        width: 4px;
+        margin-left: 50px;
+        margin-top: 25px;
+
+    }
+    .annees
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: absolute;
+    
+        
+    }
+    .titre-an-2016
+    {
+        background-color: #530B75;
+        width: 200px;
+        height: 34px;
+        box-shadow: 0px 4px 4px 0px #FA00C3;
+        
+    }
+    .titre-an-2016 h1
+    {
+        color: #fff;
+        font-weight: bolder;
+        font-size: 28px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .desc-formation-2016
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 40px;
+    }
+    .desc-formation-2016 p
+    {
+        text-align: justify;
+        text-justify: distribute;
+        padding: 30px;
+    }
+    .desc-formation-2016 img
+    {
+        width: 150px;
+        border-radius: 100%;
+        margin-left: 50px;
+        
+    }
+    .titre-an-2019
+    {
+        margin-top: 20px;
+        background-color: #530B75;
+        width: 200px;
+        height: 34px;
+        box-shadow: 0px 4px 4px 0px #FA00C3;
+        
+    }
+    .titre-an-2019 h1
+    {
+        color: #fff;
+        font-weight: bolder;
+        font-size: 28px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .desc-formation-2019
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 40px;
+    }
+    .desc-formation-2019 p
+    {
+        text-align: justify;
+        text-justify: distribute;
+        padding: 30px;
+    }
+    .desc-formation-2019 img
+    {
+        width: 150px;
+        border-radius: 100%;
+        margin-left: 50px;
+        
+    }
+    .titre-an-2020
+    {
+        margin-top: 20px;
+        background-color: #530B75;
+        width: 200px;
+        height: 34px;
+        box-shadow: 0px 4px 4px 0px #FA00C3;
+        
+    }
+    .titre-an-2020 h1
+    {
+        color: #fff;
+        font-weight: bolder;
+        font-size: 28px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .desc-formation-2020
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 40px;
+    }
+    .desc-formation-2020 p
+    {
+        text-align: justify;
+        text-justify: distribute;
+        padding: 30px;
+    }
+    .desc-formation-2020 img
+    {
+        width: 150px;
+        border-radius: 100%;
+        margin-left: 50px;
+        
+    }
+    .titre-an-2021
+    {
+        margin-top: 20px;
+        background-color: #530B75;
+        width: 200px;
+        height: 34px;
+        box-shadow: 0px 4px 4px 0px #FA00C3;
+        
+    }
+    .titre-an-2021 h1
+    {
+        color: #fff;
+        font-weight: bolder;
+        font-size: 28px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .desc-formation-2021
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 40px;
+    }
+    .desc-formation-2021 p
+    {
+        text-align: justify;
+        text-justify: distribute;
+        padding: 30px;
+    }
+    .desc-formation-2021 img
+    {
+        width: 150px;
+        margin-left: 50px;
+        
+    }
+    .experiences
+    {
+        overflow: hidden;
+    }
+    .experience-carte
+    {
+        border: none;
+        box-shadow: 0 2px 0 0 #530B75;
+      
+    }
+    .experience-carte .titre-experience
+    {
+        color: #FA00C3;
+    }
+    .experience-carte
+    {
+        padding-bottom: 20px;
+    }
+    .nos-competences
+    {
+        margin-top: 25px;
+        background-color: #530B75;
+    }
+    .domaine-competence p
+    {
+        border: 1px solid #FA00C3;
+        background-color: #FA00C3;
+        opacity: 99%;
+        color: #fff;
+        font-weight: bolder;
+        font-size: 20px;
+        width: 350px;
+        height: 60px;
+        margin: 0 auto;
+        text-align: center;
+        border-radius: 3px;
+    }
+    .les-competences ul 
+    {
+        text-decoration: none;
+        list-style: none;
+        color: #fff;
+        padding: 30px;
+        text-align: center;
+
+    }
+    .les-competences ul li 
+    {
+        padding: 40px;
+    }
+    .nos-competences-2
+    {
+        margin-top: 25px;
+        background-color: #530B75;
+        margin-top: -12px;
+    }
+    .nos-competences-3
+    {
+        margin-top: 25px;
+        background-color: #530B75;
+        margin-top: -12px;
+    }
+    .carte-realisation
+    {
+        margin: 0 auto;
+    }
+}
