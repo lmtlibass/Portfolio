@@ -354,5 +354,68 @@ body
     .carte-realisation
     {
         margin: 0 auto;
+        border: none;
+        background-color: #530B75;
+        text-align: center;
+        color: #fff;
     }
+    .carte-realisation a
+    {
+        background-color: #FA00C3;
+        opacity: 0.5;
+        color: #fff;
+        font-weight: bolder;
+        border-radius: 4px;
+    }
+    .Me-contacter h2
+    {
+        color: #530B75;
+        margin-left: 25px;
+
+    }
+    .Me-contacter hr
+    {
+        width: 85px;
+        background-color: #FA00C3;
+        border: 5px solid #FA00C3;
+        border-radius: 3px;
+        margin-left: 25px;
+
+    }
+    .rs-contacter
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .github
+    {
+        display: flex;
+        flex-direction: row;
+        width: 450px;
+        justify-content: space-around;
+        align-items: center;
+        border: 3px solid #FA00C3;
+        margin: 0 auto;
+        margin-top: 50px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .github .github-texte h1
+    {
+        font-size: 28px;
+    }
+    .github .github-texte a
+    {
+        text-decoration: none;
+        color: #530B75;
+        font-weight: bolder;
+        font-size: 18px;
+    }
+    .github .github-img img
+    {
+        width: 75px;
+    }
+
+
 }
