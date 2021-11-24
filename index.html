@@ -19,11 +19,12 @@
                 </div>
                 <div class="link">
                     <ul>
-                        <li><a href="#">A propos</a></li>
-                        <li><a href="#">Parcours</a></li>
-                        <li><a href="#">Compétences</a></li>
-                        <li><a href="#">Réalisation</a></li>
-                        <li><a href="#">Me contacter</a></li>
+                        <li><a href="#apropos">A propos</a></li>
+                        <li><a href="#formations">Formations</a></li>
+                        <li><a href="#experience">Expérience</a></li>
+                        <li><a href="#competence">Compétences</a></li>
+                        <li><a href="#realisation">Réalisation</a></li>
+                        <li><a href="#contacter">Me contacter</a></li>
                     </ul>
                 </div>
                 <div class="hamberguer" onclick="menu()" >
@@ -37,11 +38,12 @@
         <hr>
         <div class="liens">
             <ul>
-                    <li><a href="#">A propos</a></li>
-                    <li><a href="#">Parcours</a></li>
-                    <li><a href="#">Compétences</a></li>
-                    <li><a href="#">Réalisation</a></li>
-                    <li><a href="#">Me contacter</a></li>
+                    <li><a href="#apropos">A propos</a></li>
+                    <li><a href="#formations">Formations</a></li>
+                    <li><a href="#experience">Expérience</a></li>
+                    <li><a href="#competence">Compétences</a></li>
+                    <li><a href="#realisation">Réalisation</a></li>
+                    <li><a href="#contacter">Me contacter</a></li>
             </ul>
         </div>
         <button class="contacter">
@@ -74,7 +76,7 @@
                 <span class="visually-hidden">Next</span>
             </button>
     </div>
-    <section class="apropos">
+    <section class="apropos" id="apropos">
         <h1>A propos</h1>
         <p>
             <span id="desc">Slut!  Je suis Libasse THIAM</span> <br>
@@ -93,7 +95,7 @@
 	
         </p>
     </section>
-    <section class="formation">
+    <section class="formation" id="formations">
         <h1>Formations</h1>
         <div class="les-formations">
             <div class="date-formation">
@@ -150,7 +152,7 @@
             </div>
         </div>
     </section>
-    <section class="experiences">
+    <section class="experiences" id="experience">
         <h1>Expérience</h1>
         <div class="row  experience-carte-1-2">
             <div class=" col-5 card experience-carte" style="width: 15rem;">
@@ -170,7 +172,7 @@
                 </div>
             </div>
         </div>
-        <div class="row   experience-carte-3-4">
+        <div class="row   experience-carte-3-4  ">
             <div class=" col-5 card experience-carte" style="width: 15rem;">
                 <h1 class="titre-experience">
                     2016
@@ -189,7 +191,7 @@
             </div>
         </div>
     </section>
- <section class="Competences">
+ <section class="Competences" id="competence">
         <h1>Competences</h1>
         <div class="nos-competences">
             <div class="domaine-competence">
@@ -230,7 +232,7 @@
         </div>     
     </section>
     <section class="realisation">
-    <div class="Realisation">
+    <div class="Realisation" id="realisation">
         <h1>Réalisations</h1>
         <div class="card carte-realisation" style="width: 28rem;">
             <img src="img/saloumpharma.JPG" class="card-img-top" alt="...">
@@ -264,7 +266,7 @@
           </div>
     </div>
 </section>
-<section class="Me-contacter">
+<section class="Me-contacter" id="contacter">
     <h1>Me contacter</h1>
     <h2>Réseau sociaux</h2>
     <hr>
@@ -303,8 +305,43 @@
     </div>
     <h2 class="mt-5">Contact</h2>
     <hr>
-
 </section>
+<footer>
+    <div class="coordonnees">
+        <div class="details-coordonees">
+            <h1 class="fs-4">Details</h1>
+            <div class="tel">
+                <img src="img/tel.png" alt="">
+                <p class="coordone">Tél:  (221) 78 290 25 12 /  70 907 18 39 </p>
+            </div>
+            <div class="tel">
+                <img src="img/mail.png" alt=""> 
+                <p class="coordone">Mail : lmtlibasse@gmail.com  </p>
+            </div>
+            <div class="tel">
+                <img src="img/web.png" alt=""> 
+                <p class="coordone">https://github.io/libscode  </p>
+            </div>
+            <div class="tel">
+                <img src="img/address.png" alt=""> 
+                <p class="coordone">Dakar, Sénégal  </p>
+            </div>                 
+        </div>
+        <div class="formulaire">
+            <form action="">
+                <h1>Ecrivez moi</h1>
+                <input type="text" placeholder="Prenom/nom*"> <br>
+                <input type="text" placeholder="Email"> <br>
+                <textarea name="#" id="#" cols="23" rows="8" placeholder="Message"></textarea> <br>
+                <input type="submit" value="Envoyer">
+            </form>
+        </div>
+    </div>
+    <div class=" row footer">
+        <p>Copyright © by libscode</p>
+    </div>
+</footer>
+
 
 </body>
   <script src="main.js"></script>

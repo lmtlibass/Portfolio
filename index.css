@@ -7,6 +7,7 @@ body
 
 
 @media only screen and (max-width: 600px) {
+   
     section
     {
         margin-top: 20px;
@@ -435,6 +436,63 @@ body
     {
         width: 75px;
     }
+    .coordonnees
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        align-self:center;
+        background-color: #FA00C3;
+        border-radius: 4px;
+        position: absolute;
+        z-index: 2;
+        margin-left: 70px;
+        padding: 80px;
+        width: auto;
+    }
+    .details-coordonees
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: justify;
+        text-justify: auto;
+    }
+    .details-coordonees .tel
+    {
+        width: auto;
+        display:inline-flex;
+    }
+    .details-coordonees .tel img 
+    {
+        
+        width: 20px;
+        float: left;
+    }
+    .details-coordonees .tel .coordone 
+    {
+        color: #fff;
+        font-weight: bolder;
+        float: right;
+
+    }
+
+    .footer
+    {
+        background-color: #530B75;
+        padding: 50px;
+        text-align: center;
+        color: #fff;
+        font-weight: bolder;
+        position: absolute;
+        margin-top: 700px;
+        width: 590px;
+        z-index: 1;
+    }
+
+  
 
 
 }
