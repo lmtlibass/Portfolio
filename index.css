@@ -292,11 +292,26 @@ body
     .experiences
     {
         overflow: hidden;
+        margin-top: 90px;
+    }
+    .experience-carte-1-2
+    {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .experience-carte-3-4
+    {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
     }
     .experience-carte
     {
         border: none;
-        box-shadow: 0 2px 0 0 #530B75;
+        box-shadow: 0 2px 2px 0 #530B75;
       
     }
     .experience-carte .titre-experience
@@ -307,9 +322,13 @@ body
     {
         padding-bottom: 20px;
     }
+    .Competences
+    {
+        margin-top: 95px;
+    }
     .nos-competences
     {
-        margin-top: 25px;
+        margin-top: 90px;
         background-color: #530B75;
     }
     .domaine-competence p
