@@ -7,6 +7,10 @@ body
 
 
 @media only screen and (max-width: 600px) {
+    .competences-descktop
+    {
+        display: none;
+    }
    
     section
     {
@@ -491,4 +495,424 @@ body
         width: 587px;
         z-index: 1;
     }
+    .slide-a-propos
+    {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+
+    h1
+    {
+        color: #530B75;
+        font-size: 45px;
+        text-align: center;
+        font-weight: bolder;
+        margin-top: 25px;
+    }
+    .slide-mobile
+    {
+        display: none;
+    }
+    .menu-mobile
+    {
+        display: none;
+    }
+    .navigation
+    {
+        display: initial;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .navigation .logo
+    {
+        margin-left: 50px;
+    }
+    .navigation .logo li 
+    {
+        list-style: none;
+    }
+    .navigation .logo li a 
+    {
+        color: #fff;
+        font-size: 40px;
+        text-decoration: none;
+    }
+    .navigation .logo li a span
+    {
+        color: #FA00C3;
+    }
+    .nav-desk
+    {
+        background-color: #530B75;
+    }
+    .link ul li 
+    {
+        display: inline-block;
+        
+    }
+    .link ul li a 
+    {
+        text-decoration: none;
+        color: #fff;
+        padding: 15px;
+        font-size: 18px;
+    }
+    .hamberguer img 
+    {
+        width: 80px;
+        height: 60px;
+        margin-right: 50px;
+    }
+    .slide-a-propos
+    {
+        padding: 10px;
+        margin-left: 50px;
+    }
+    .texte-a-propos 
+    {
+        text-align: justify;
+        text-justify: auto;
+        padding: 10%;
+    }
+    .texte-a-propos p span 
+    {
+        color: #FA00C3;
+        font-size: 24px;
+        font-weight: bolder;
+    }
+    .formation
+    {
+        margin-top: -20px;
+    }
+    
+    .les-formations
+    {
+        height: 1400px;
+        background-color: #FA00C3;
+        width: 7px;
+        margin: 0 auto;
+        border-radius: 4px;
+        margin-top: 60px;
+    }
+
+    .annees
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: absolute;
+        
+    }
+    .titre-an-2016
+    {
+        background-color: #530B75;
+        width: 300px;
+        height: 38px;
+        margin-left: 7px;
+        box-shadow: 0px 4px 4px 0px #FA00C3;
+        
+    }
+    .titre-an-2016 h1
+    {
+        color: #fff;
+        font-weight: bolder;
+        font-size: 30px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .desc-formation-2016
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 40px;
+        width: 500px;
+    }
+    .desc-formation-2016 p
+    {
+        text-align: justify;
+        text-justify: auto;
+        padding: 50px;
+    }
+    .desc-formation-2016 img
+    {
+        width: 150px;
+        border-radius: 100%;
+        margin-left: 50px;
+        
+    }
+    .titre-an-2019
+    {
+        margin-top: 20px;
+        background-color: #530B75;
+        width: 300px;
+        height: 38px;
+        margin-left: -299px;
+        box-shadow: 0px 4px 4px 0px #FA00C3;
+        
+    }
+    .titre-an-2019 h1
+    {
+        color: #fff;
+        font-weight: bolder;
+        font-size: 28px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .desc-formation-2019
+    {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        justify-content: space-around;
+        margin-left: -490px;
+        margin-top: 40px;
+    }
+    .desc-formation-2019 p
+    {
+        text-align: justify;
+        text-justify: distribute;
+        padding: 30px;
+    }
+    .desc-formation-2019 img
+    {
+        width: 150px;
+        border-radius: 100%;
+        margin-left: 50px;
+        
+    }
+    .titre-an-2020
+    {
+        margin-top: 20px;
+        background-color: #530B75;
+        margin-left: 7px;
+        width: 300px;
+        height: 34px;
+        box-shadow: 0px 4px 4px 0px #FA00C3;
+        
+    }
+    .titre-an-2020 h1
+    {
+        color: #fff;
+        font-weight: bolder;
+        font-size: 28px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .desc-formation-2020
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 500px;
+        margin-top: 40px;
+    }
+    .desc-formation-2020 p
+    {
+        text-align: justify;
+        text-justify: distribute;
+        padding: 30px;
+    }
+    .desc-formation-2020 img
+    {
+        width: 150px;
+        border-radius: 100%;
+        margin-left: 50px;
+        
+    }
+    .titre-an-2021
+    {
+        margin-top: 20px;
+        background-color: #530B75;
+        width: 300px;
+        height: 38px;
+        margin-left: -299px;
+        box-shadow: 0px 4px 4px 0px #FA00C3;
+        
+    }
+    .titre-an-2021 h1
+    {
+        color: #fff;
+        font-weight: bolder;
+        font-size: 28px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .desc-formation-2021
+    {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        justify-content: space-around;
+        margin-left: -490px;
+        margin-top: 40px;
+    }
+    .desc-formation-2021 p
+    {
+        text-align: justify;
+        text-justify: distribute;
+        padding: 30px;
+    }
+    .desc-formation-2021 img
+    {
+        width: 150px;
+        margin-left: 50px;
+        
+    }
+    .experiences h1
+    {
+        margin-top: 70px;
+    }
+
+    .experience-carte-1-2
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+    .experience-carte-1-2 .experience-carte 
+    {
+        box-shadow: 0px 4px 4px 0px #530B75;
+        width: 500px;
+        height: 300px;
+    }
+    .experience-carte-1-2 .experience-carte h1 
+    {
+        color: #FA00C3;
+    }
+    .experience-carte-3-4 .experience-carte 
+    {
+        box-shadow: 0px 4px 4px 0px #530B75;
+        width: 500px;
+        height: 300px;
+    }
+    .experience-carte-3-4 .experience-carte h1 
+    {
+        color: #FA00C3;
+    }
+
+    .experience-carte-3-4 
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 30px;
+    }
+    .competences-descktop
+{
+    position: absolute;
+    background-color: #530B75;
+    margin-top: 200px;
+    width: 100%;
+    left: 0;
+    
+   
+
+}
+.image
+{
+    margin-top: -309px;
+    margin-left: 450px;
+    align-content: center;
+}
+.image img 
+{
+    width:800px ;
+    height: 500px;
+    
+}
+.competences
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 15px;
+}
+.competences  .front-end
+{
+    padding: 20px;
+    border-right: 0.1px solid #ffffff;
+
+}
+.competences  .front-end h1
+{
+    color: #ffffff;
+    font-size: 24px;
+    padding: 20px;
+    background-color: #FA00C3;
+    border-radius: 5px;
+    margin-left: 20px;
+    text-align: center;
+}
+.competences  .front-end ul li
+{
+    list-style: none;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px;
+
+}
+.competences  .back-end
+{
+    padding: 20px;
+    border-right: 0.1px solid #ffffff;
+
+}
+.competences  .back-end h1
+{
+    color: #ffffff;
+    font-size: 24px;
+    padding: 20px;
+    background-color: #FA00C3;
+    border-radius: 5px;
+    margin-left: 20px;
+    text-align: center;
+}
+.competences  .back-end ul li
+{
+    list-style: none;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px;
+
+}
+.competences  .management
+{
+    padding: 20px;
+    
+
+}
+.competences  .management h1
+{
+    color: #ffffff;
+    font-size: 24px;
+    padding: 20px;
+    background-color: #FA00C3;
+    border-radius: 5px;
+    margin-left: 20px;
+    text-align: center;
+}
+.competences  .management ul li
+{
+    list-style: none;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px;
+
+}
+.mobile-competence 
+{
+    display: none;
+}
+.ompetence-ordi
+{
+    margin-top: 600px;
+}
+
 }

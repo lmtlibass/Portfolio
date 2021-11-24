@@ -50,7 +50,7 @@
             Contact
         </button>
     </div>
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide slide-mobile" data-bs-ride="carousel">
             <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -78,30 +78,58 @@
     </div>
     <section class="apropos" id="apropos">
         <h1>A propos</h1>
-        <p>
-            <span id="desc">Slut!  Je suis Libasse THIAM</span> <br>
-                25 ans 
-                Je suis étudiant en master 2 en management
-                des sytèmes d’informations automatisé . 
-                Actuellement Apprenant a Simplon sénegal,
-                je suis en même temps entrepreneur, developper
-                freelance. Passionné de l’informatique et de la
-                nouvelle technologie, Ce qui m’incite à rester 
-                dans cette vie c’est de changer le monde. En effet,
-                nous sommes dans une vie flagramment déséquilibrée 
-                avec une minorité producteur et face a une majorité 
-                consommateur. Ainsi, mon objectif est de changer la 
-                done en commençant dans le domaine où je m’active. [...] 
-	
-        </p>
+        <div class="row a-propos">
+            <div class=" col-4 ml-2 slide-a-propos">
+                <div id="carouselExampleIndicators" class="col carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/libs2.jpg" class="d-block w-100"  height="350px" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/img2.jpg" class="d-block w-100" height="350px" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/img3.jpg" class="d-block w-100" height="350px" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col texte-a-propos">
+                <p>
+                <span id="desc">Slut!  Je suis Libasse THIAM</span> <br>
+                    25 ans 
+                    Je suis étudiant en master 2 en management
+                    des sytèmes d’informations automatisé . 
+                    Actuellement Apprenant a Simplon sénegal,
+                    je suis en même temps entrepreneur, developper
+                    freelance. Passionné de l’informatique et de la
+                    nouvelle technologie, Ce qui m’incite à rester 
+                    dans cette vie c’est de changer le monde. En effet,
+                    nous sommes dans une vie flagramment déséquilibrée 
+                    avec une minorité producteur et face a une majorité 
+                    consommateur. Ainsi, mon objectif est de changer la 
+                    done en commençant dans le domaine où je m’active. [...] 
+                </p>
+            </div>
+        </div>
     </section>
-    <section class="formation" id="formations">
+    <section class="formation " id="formations">
         <h1>Formations</h1>
         <div class="les-formations">
             <div class="date-formation">
-                <div class="trait">
-
-                </div>
                 <div class="annees">
                     <div class="an-2016">
                         <div class="titre-an-2016">
@@ -152,10 +180,10 @@
             </div>
         </div>
     </section>
-    <section class="experiences" id="experience">
-        <h1>Expérience</h1>
+    <section class="experiences mt-5" id="experience">
+        <h1 class="mt-5">Expérience</h1>
         <div class="row  experience-carte-1-2">
-            <div class=" col-5 card experience-carte" style="width: 15rem;">
+            <div class=" col-5 col-lg-6 card experience-carte" style="width: 15rem;">
                 <h1 class="titre-experience">
                     2016
                 </h1>
@@ -163,7 +191,7 @@
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
-            <div class=" col-5 card experience-carte" style="width: 15rem;">
+            <div class=" col-5 col-lg-6 card experience-carte" style="width: 15rem;">
                 <h1 class="titre-experience">
                     2018
                 </h1>
@@ -191,7 +219,50 @@
             </div>
         </div>
     </section>
- <section class="Competences" id="competence">
+    <section class="competence-ordi">
+        <h1>Compétences</h1>
+    <div class="competences-descktop">
+        <div class="image">
+            <img src="img/dev2.jpg" alt="">
+        </div>
+        <div class="competences">
+            <div class="front-end">
+                <h1>Developper la partie front 
+                    d’une application</h1>
+                    <ul>
+                        <li>Maquetter une application</li>
+                        <li>Réaliser une interface utilisateur 
+                            web statique adaptable</li>
+                        <li>Developper une interface utilisateur
+                            web dynamique</li>
+                    </ul>
+            </div>
+            <div class="back-end">
+                <h1>Developper la partie front 
+                    d’une application</h1>
+                    <ul>
+                        <li>Maquetter une application</li>
+                        <li>Réaliser une interface utilisateur 
+                            web statique adaptable</li>
+                        <li>Developper une interface utilisateur
+                            web dynamique</li>
+                    </ul>
+            </div>
+            <div class="management">
+                <h1>Developper la partie front 
+                    d’une application</h1>
+                    <ul>
+                        <li>Maquetter une application</li>
+                        <li>Réaliser une interface utilisateur 
+                            web statique adaptable</li>
+                        <li>Developper une interface utilisateur
+                            web dynamique</li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+ </section>
+ <section class="Competences mobile-competence" id="competence">
         <h1>Competences</h1>
         <div class="nos-competences">
             <div class="domaine-competence">
