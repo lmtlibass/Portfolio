@@ -803,29 +803,29 @@ body
         justify-content: space-around;
         margin-top: 30px;
     }
+    .competence-ordi
+    {
+        margin-top: 100px;
+        padding: 50px
+    }
     .competences-descktop
-{
-    position: absolute;
+    {
     background-color: #530B75;
     margin-top: 200px;
     width: 100%;
-    left: 0;
-    
-   
-
-}
-.image
-{
-    margin-top: -309px;
-    margin-left: 450px;
+    left: 0;  
+    }
+    .image
+    {
+    margin-left: 400px;
     align-content: center;
-}
-.image img 
-{
+    }
+    .image img 
+    {
     width:800px ;
     height: 500px;
-    
-}
+    margin-top: -309px;   
+    }         
 .competences
 {
     display: flex;
@@ -913,6 +913,114 @@ body
 .ompetence-ordi
 {
     margin-top: 600px;
+}
+.Me-contacter h2
+{
+    color: #530B75;
+    margin-left: 25px;
+
+}
+.Me-contacter hr
+{
+    width: 85px;
+    background-color: #FA00C3;
+    border: 5px solid #FA00C3;
+    border-radius: 3px;
+    margin-left: 25px;
+
+}
+.rs-contacter
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.github
+{
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px solid #FA00C3;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.github .github-texte h1
+{
+    font-size: 28px;
+}
+.github .github-texte a
+{
+    text-decoration: none;
+    color: #530B75;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.github .github-img img
+{
+    width: 75px;
+}
+.coordonnees
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    align-self:center;
+    background-color: #FA00C3;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 70px;
+    padding: 80px;
+    width: auto;
+}
+.details-coordonees
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: justify;
+    text-justify: auto;
+}
+.details-coordonees .tel
+{
+    width: auto;
+    display:inline-flex;
+}
+.details-coordonees .tel img 
+{
+    
+    width: 20px;
+    float: left;
+}
+.details-coordonees .tel .coordone 
+{
+    color: #fff;
+    font-weight: bolder;
+    float: right;
+
+}
+
+.footer
+{
+    background-color: #530B75;
+    padding: 50px;
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+    position: absolute;
+    margin-top: 700px;
+    width: 587px;
+    z-index: 1;
+}
+.slide-a-propos
+{
+    display: none;
 }
 
 }
