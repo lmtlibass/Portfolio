@@ -50,7 +50,7 @@
             Contact
         </button>
     </div>
-    <div id="carouselExampleIndicators" class="carousel slide slide-mobile" data-bs-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide slide-mobile " data-bs-ride="carousel">
             <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -180,8 +180,8 @@
             </div>
         </div>
     </section>
-    <section class="experiences mt-5" id="experience">
-        <h1 class="mt-5">Expérience</h1>
+    <section class="experiences" id="experience">
+        <h1 class="titre-experience mt-5">Expérience</h1>
         <div class="row  experience-carte-1-2">
             <div class=" col-5 col-lg-6 card experience-carte" style="width: 15rem;">
                 <h1 class="titre-experience">
@@ -219,11 +219,11 @@
             </div>
         </div>
     </section>
-    <h1>Compétences</h1>
+    <h1 id="ordi-titre-competences">Compétences</h1>
     <section class="competence-ordi">
         <div class="competences-descktop">
             <div class="image">
-                <img src="img/dev2.jpg" alt="">
+                <img src="img/dev2.jpg" alt="" class="shadow">
             </div>
             <div class="competences">
                 <div class="front-end">
@@ -262,7 +262,7 @@
             </div>
         </div>
  </section>
- <section class="Competences mobile-competence" id="competence">
+ <section class="Competences mobile-competence container-fluid" id="competence">
         <h1>Competences</h1>
         <div class="nos-competences">
             <div class="domaine-competence">
@@ -305,8 +305,8 @@
     <section class="realisation">
         <div class="Realisation" id="realisation">
             <h1>Réalisations</h1>
-            <div class="d-flex flx-row justify-content-around realisation-ligne1">
-                <div class="col-lg-6 card carte-realisation" style="width: 28rem;">
+            <div class="realisation-ligne1 container-fluid">
+                <div class="col card carte-realisation" style="width: 15rem;">
                     <img src="img/saloumpharma.JPG" class="card-img-top" alt="...">
                     <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -316,7 +316,7 @@
                     <a href="#" class="btn en-savoir-plus-realisation">En savoir plus</a>
                     </div>
                 </div>
-                <div class="col-lg-6 card carte-realisation mt-5" style="width: 28rem;">
+                <div class="col card carte-realisation mt-5" style="width: 15rem;">
                     <img src="img/tissumania.JPG" class="card-img-top" alt="...">
                     <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -326,9 +326,7 @@
                     <a href="#" class="btn en-savoir-plus-realisation">En savoir plus</a>
                     </div>
                 </div>
-            </div>
-            <div class="d-flex flx-row justify-content-around realisationligne-2">
-                <div class="col-lg-6 card carte-realisation mt-5" style="width: 28rem;">
+                <div class="col card carte-realisation mt-5" style="width: 15rem;">
                     <img src="img/minamemontre.jpg" class="card-img-top" style="height: 250px;" alt="...">
                     <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -341,40 +339,43 @@
             </div>
         </div>
 </section>
+
 <section class="Me-contacter" id="contacter">
     <h1>Me contacter</h1>
     <h2>Réseau sociaux</h2>
     <hr>
-    <div class="rs-contacter">
-        <div class="github">
-            <div class="github-texte">
-                <h1>Github</h1>
-                <a href="https://github.com/lmtlibass">Voire le profil</a>
-            </div>
-            <div class="github-img">
-                <img src="img/githubb.png" alt="">
-            </div>
-        </div>
-    </div>
-    <div class="rs-contacter">
-        <div class="github">
-            <div class="github-texte">
-                <h1>Twitter</h1>
-                <a href="https://twitter.com/thiam_libasse">Voire le profil</a>
-            </div>
-            <div class="github-img">
-                <img src="img/twitter.png" alt="">
+    <div class="rs-contacter-desk">
+        <div class="rs-contacter">
+            <div class="github">
+                <div class="github-texte">
+                    <h1>Github</h1>
+                    <a href="https://github.com/lmtlibass">Voire le profil</a>
+                </div>
+                <div class="github-img">
+                    <img src="img/githubb.png" alt="">
+                </div>
             </div>
         </div>
-    </div>
-    <div class="rs-contacter">
-        <div class="github">
-            <div class="github-texte">
-                <h1>Linkdin</h1>
-                <a href="https://www.linkdin.com/in/libasse-thiam-174b611b0">Voire le profil</a>
+        <div class="rs-contacter">
+            <div class="github">
+                <div class="github-texte">
+                    <h1>Twitter</h1>
+                    <a href="https://twitter.com/thiam_libasse">Voire le profil</a>
+                </div>
+                <div class="github-img">
+                    <img src="img/twitter.png" alt="">
+                </div>
             </div>
-            <div class="github-img">
-                <img src="img/linkedin.png" alt="">
+        </div>
+        <div class="rs-contacter">
+            <div class="github">
+                <div class="github-texte">
+                    <h1>Linkdin</h1>
+                    <a href="https://www.linkdin.com/in/libasse-thiam-174b611b0">Voire le profil</a>
+                </div>
+                <div class="github-img">
+                    <img src="img/linkedin.png" alt="">
+                </div>
             </div>
         </div>
     </div>
@@ -405,14 +406,14 @@
         <div class="formulaire">
             <form action="">
                 <h1>Ecrivez moi</h1>
-                <input type="text" placeholder="Prenom/nom*"> <br>
-                <input type="text" placeholder="Email"> <br>
-                <textarea name="#" id="#" cols="23" rows="8" placeholder="Message"></textarea> <br>
-                <input type="submit" value="Envoyer">
+                <input type="text" placeholder="Prenom/nom*"  class="shadow"> <br><br>
+                <input type="text" placeholder="Email" class="shadow"> <br><br>
+                <textarea name="#" id="#" cols="23" rows="8" placeholder="Message" class="shadow"></textarea> <br><br>
+                <input type="submit" value="Envoyer" class="shadow"><br><br>
             </form>
         </div>
     </div>
-    <div class=" row footer">
+    <div class="container-fluid footer">
         <p>Copyright © by libscode</p>
     </div>
 </footer>
